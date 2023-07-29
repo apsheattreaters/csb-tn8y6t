@@ -26,6 +26,7 @@ angular
           $scope.partyAddress = party.partyAddress;
           $scope.partyCity = party.partyCity;
           $scope.partyPin = party.partyPin;
+          $scope.partyState = party.partyState;
           $scope.partyStateCode = party.partyStateCode;
           if (typeof party.partyDocType === "undefined") {
             $scope.partyDocType = "B2B";
