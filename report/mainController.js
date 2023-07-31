@@ -140,7 +140,7 @@ angular
                   Pos: "27",
                   Addr1: $scope.partyAddress,
                   Loc: "" + $scope.partyState,
-                  Pin: "" + $scope.partyPin,
+                  Pin: $scope.partyPin,
                   Stcd: "" + $scope.partyStateCode,
                   Ph: null,
                   Em: null
