@@ -25,7 +25,7 @@ angular
           $scope.partyGST = party.partyGst;
           $scope.partyAddress = party.partyAddress;
           $scope.partyCity = party.partyCity;
-          $scope.partyPin = party.partyPin;
+          $scope.partyPin = parseInt(party.partyPin);
           $scope.partyState = party.partyState;
           $scope.partyStateCode = party.partyStateCode;
           if (typeof party.partyDocType === "undefined") {
