@@ -93,7 +93,7 @@ angular
           );
           if ($scope.inv.rateKg > 0) {
             $scope.compQty = $scope.inv.qtyKgs;
-            $scope.compUnit = "Kg";
+            $scope.compUnit = "Kgs";
             $scope.compPrice = $scope.inv.rateKg;
           }
 
