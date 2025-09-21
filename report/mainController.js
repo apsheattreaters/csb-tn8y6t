@@ -41,15 +41,15 @@ angular
           ).toLocaleDateString("en-GB");
           $scope.inv.sgst = parseFloat($scope.inv.tax / 2);
           $scope.inv.cgst = parseFloat($scope.inv.tax / 2);
-          $scope.gstRate = 6;
+          $scope.gstRate = 9;
 
-          $scope.date = $scope.inv.creationDate.split("/");
-          if (
-            new Date($scope.date[2], $scope.date[1] - 1, $scope.date[0]) <=
-            new Date(2019, 09, 03)
-          ) {
-            $scope.gstRate = 9;
-          }
+          // $scope.date = $scope.inv.creationDate.split("/");
+          // if (
+          //   new Date($scope.date[2], $scope.date[1] - 1, $scope.date[0]) <=
+          //   new Date(2019, 09, 03)
+          // ) {
+          //   $scope.gstRate = 9;
+          // }
 
           $scope.inv.total = $scope.inv.total.toFixed(0);
 
@@ -357,3 +357,4 @@ angular
 //    $scope.image = null
 //    $scope.imageFileName = ''
 //})
+
