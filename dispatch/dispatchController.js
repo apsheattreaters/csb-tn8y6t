@@ -45,8 +45,8 @@ angular.module('dispatchModule', ['toastr'])
             invoiceRecord.total = record.total;
 
             invoiceRecord.amount=record.total;
-            invoiceRecord.tax=parseFloat(record.total * 0.12).toFixed(2);
-            invoiceRecord.total = parseFloat(record.total * 1.12).toFixed(2);
+            invoiceRecord.tax=parseFloat(record.total * 0.18).toFixed(2);
+            invoiceRecord.total = parseFloat(record.total * 1.18).toFixed(2);
 
             invoiceRecord.componentId = record.componentId;
 
@@ -68,4 +68,5 @@ angular.module('dispatchModule', ['toastr'])
         $scope.clear = function (selectedRecord) {
             $scope.report.selected = []
         };
+
     });
