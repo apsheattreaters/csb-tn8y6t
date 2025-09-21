@@ -173,7 +173,7 @@ angular
                     Discount: 0,
                     PreTaxVal: 0,
                     AssAmt: $scope.inv.amount,
-                    GstRt: 12,
+                    GstRt: 18,
                     IgstAmt: 0,
                     CgstAmt: $scope.compTax,
                     SgstAmt: $scope.compTax,
@@ -357,4 +357,5 @@ angular
 //    $scope.image = null
 //    $scope.imageFileName = ''
 //})
+
 
